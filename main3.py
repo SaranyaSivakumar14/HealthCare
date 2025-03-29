@@ -4,8 +4,17 @@ from pymongo import MongoClient
 from pydantic import BaseModel
 from urllib.parse import quote_plus
 import os
+from fastapi.middleware.cors import CORSMiddleware
 
 app = FastAPI()
+#  Properly configure CORS
+app.add_middleware(
+    CORSMiddleware,
+    allow_origins=["*"],  # Allow all origins
+    allow_credentials=True,
+    allow_methods=["*"],  # Allow all HTTP methods
+    allow_headers=["*"],  # Allow all headers
+)
 
 username = "prabhudhanabal"
 password = "Omsivam@007"
@@ -34,3 +43,7 @@ async def get_doctors():
         del item["_id"]
         items.append(item)
     return items
+
+if __name__ == "__main__":
+    import uvicorn
+    uvicorn.run(app, host="0.0.0.0", port=8000)

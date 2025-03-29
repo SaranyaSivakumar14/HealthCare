@@ -1,159 +1,99 @@
 [{
-  "_id": {
-    "$oid": "67e60a54f84e5d433eb6a6dd"
-  },
   "id": 1,
   "name": "Dr. Paul",
   "specialty": "Cardiologist"
 },
 {
-  "_id": {
-    "$oid": "67e60a54f84e5d433eb6a6de"
-  },
   "id": 2,
   "name": "Dr. Jane Smith",
   "specialty": "Dermatologist"
 },
 {
-  "_id": {
-    "$oid": "67e60a54f84e5d433eb6a6df"
-  },
   "id": 3,
   "name": "Dr. Alex Brown",
   "specialty": "Neurologist"
 },
 {
-  "_id": {
-    "$oid": "67e6227df84e5d433eb6a6e6"
-  },
   "id": 4,
   "name": "Dr. John Doe",
   "specialty": "Cardiologist"
 },
 {
-  "_id": {
-    "$oid": "67e622ecf84e5d433eb6a6e7"
-  },
   "id": 5,
   "name": "Dr. Martin",
   "specialty": "Cardiologist"
 },
 {
-  "_id": {
-    "$oid": "67e622ecf84e5d433eb6a6e8"
-  },
   "id": 6,
   "name": "Dr. Smith",
   "specialty": "Cardiologist"
 },
 {
-  "_id": {
-    "$oid": "67e624a0f84e5d433eb6a6e9"
-  },
   "id": 7,
   "name": "Dr. Mary",
   "specialty": "Cardiologist"
 },
 {
-  "_id": {
-    "$oid": "67e624a0f84e5d433eb6a6ea"
-  },
   "id": 8,
   "name": "Dr.Ravi ",
   "specialty": "Cardiologist"
 },
 {
-  "_id": {
-    "$oid": "67e62eb6f84e5d433eb6a6eb"
-  },
   "id": 9,
   "name": "Dr. Selvi",
   "specialty": "neurologist"
 },
 {
-  "_id": {
-    "$oid": "67e62eb6f84e5d433eb6a6ec"
-  },
   "id": 10,
   "name": "Dr.Durai",
   "specialty": "Dermatologist"
 },
 {
-  "_id": {
-    "$oid": "67e62eb6f84e5d433eb6a6ed"
-  },
   "id": 11,
   "name": "Dr.palanisamy",
   "specialty": "phychologist"
 },
 {
-  "_id": {
-    "$oid": "67e62eb6f84e5d433eb6a6ee"
-  },
   "id": 12,
   "name": "Dr.mahalakshmi",
   "specialty": "Dermatologist"
 },
 {
-  "_id": {
-    "$oid": "67e62eb6f84e5d433eb6a6ef"
-  },
   "id": 13,
   "name": "Dr.velusamy",
   "specialty": "phychologist"
 },
 {
-  "_id": {
-    "$oid": "67e62eb6f84e5d433eb6a6f0"
-  },
   "id": 14,
   "name": "Dr.lakshmi",
   "specialty": "Dermatologist"
 },
 {
-  "_id": {
-    "$oid": "67e62f39f84e5d433eb6a6f1"
-  },
   "id": 15,
   "name": "Dr. usha",
   "specialty": "neurologist"
 },
 {
-  "_id": {
-    "$oid": "67e62f39f84e5d433eb6a6f2"
-  },
   "id": 16,
   "name": "Dr.Durairaj",
   "specialty": "Dermatologist"
 },
 {
-  "_id": {
-    "$oid": "67e62f39f84e5d433eb6a6f3"
-  },
   "id": 17,
   "name": "Dr.samy",
   "specialty": "phychologist"
 },
 {
-  "_id": {
-    "$oid": "67e62f39f84e5d433eb6a6f4"
-  },
   "id": 18,
   "name": "Dr.maha",
   "specialty": "Dermatologist"
 },
 {
-  "_id": {
-    "$oid": "67e62f39f84e5d433eb6a6f5"
-  },
   "id": 19,
   "name": "Dr.velusamy",
   "specialty": "phychologist"
 },
 {
-  "_id": {
-    "$oid": "67e62f39f84e5d433eb6a6f6"
-  },
   "id": 20,
   "name": "Dr.subbulakshmi",
   "specialty": "Dermatologist"
