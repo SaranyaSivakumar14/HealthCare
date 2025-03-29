@@ -15,9 +15,11 @@ escaped_password = quote_plus(password)
 
 # MongoDB connection
 MONGO_URI = os.getenv("MONGO_URI", "mongodb+srv://" + escaped_username + ":" + escaped_password + "@healthcarecluster.qlmp9t1.mongodb.net/?retryWrites=true&w=majority&appName=HealthCareCluster")
-client = MongoClient(MONGO_URI)
+print(MONGO_URI) 
+client = MongoClient(MONGO_URI,  tls=True, tlsAllowInvalidCertificates=True)
 db = client.Hospital  # Database name
 collection = db.Doctors  # Collection name
+print(db.list_collection_names())
 
 # Pydantic model for request validation
 class Item(BaseModel):
