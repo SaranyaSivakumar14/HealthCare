@@ -3,6 +3,7 @@ from fastapi import FastAPI, HTTPException
 from pymongo import MongoClient
 from pydantic import BaseModel
 from urllib.parse import quote_plus
+from bson import ObjectId
 import os
 from fastapi.middleware.cors import CORSMiddleware
 
@@ -43,6 +44,12 @@ async def get_doctors():
         del item["_id"]
         items.append(item)
     return items
+
+@app.post("/doctors/")
+async def create_item(item: Item):
+    item_dict = item.dict()
+    result = collection.insert_one(item_dict)
+    return {"id": str(result.inserted_id), "message": "Item created successfully"}
 
 #if __name__ == "__main__":
    # import uvicorn
