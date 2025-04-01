@@ -45,7 +45,7 @@ async def get_doctors():
         items.append(item)
     return items
 
-@app.post("/doctors/")
+@app.post("/doctors")
 async def create_item(item: Item):
     item_dict = item.dict()
     result = collection.insert_one(item_dict)
