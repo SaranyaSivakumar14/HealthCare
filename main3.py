@@ -16,14 +16,15 @@ app.add_middleware(
     allow_headers=["*"],  # Allow all headers
 )
 
-username = "prabhudhanabal"
-password = "Omsivam@007"
+username = "saranya21sivakumar"
+password = "Admin123"
 
 escaped_username = quote_plus(username)
 escaped_password = quote_plus(password)
 
 # MongoDB connection
-MONGO_URI = os.getenv("MONGO_URI", "mongodb+srv://" + escaped_username + ":" + escaped_password + "@healthcarecluster.qlmp9t1.mongodb.net/?retryWrites=true&w=majority&appName=HealthCareCluster")
+MONGO_URI = os.getenv("MONGO_URI", "mongodb+srv://" + escaped_username + ":" + escaped_password + "@healthcarecluster.i60lgww.mongodb.net/?retryWrites=true&w=majority&appName=HealthCareCluster")
+
 print(MONGO_URI) 
 client = MongoClient(MONGO_URI,  tls=True, tlsAllowInvalidCertificates=True)
 db = client.Hospital  # Database name
